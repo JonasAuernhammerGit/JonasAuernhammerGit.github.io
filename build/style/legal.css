@@ -1,0 +1,48 @@
+#body-legal{
+    background-color: #111111;
+
+}
+
+#sec_h1_legal{
+    padding-top:140px;
+    padding-bottom: 80px;
+
+    color:white;
+}
+
+    .h1_legal{
+        font-size:64px;
+        grid-column: 3;
+        font-weight: 400;
+        color: #d8d8d8;
+    }
+
+
+#legal_body{
+    padding-top:120px;
+    padding-bottom: 240px;
+    background-color: #181818;
+}
+
+    .titel_imprint{
+        color:#c8c8c8;
+
+    }
+
+    .legal_item{
+    margin-bottom:64px;
+    }
+
+    .legal_item h2{
+    font-size:16px;
+    color:#c8c8c8;
+    margin-bottom: 24px;
+    }
+
+
+.innerwrapper_imprint_cta{
+    display: grid;
+    grid-template-rows: 24px 24px;
+    row-gap: 16px;
+    justify-content: right;
+}

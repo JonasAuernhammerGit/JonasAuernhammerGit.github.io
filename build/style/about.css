@@ -1,0 +1,54 @@
+/* CSS About */
+
+#body-about{
+    background: #111111;;
+}
+
+.contain-about{
+    max-width:800px;
+    margin:auto;
+}
+
+
+
+.header-section-about{
+    height:400px;
+    display:flex;
+    justify-content: center;
+    padding-bottom:40px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+    .h1-about{
+        color: #d8d8d8;
+        text-align: center;
+        font-size: 32px;
+        line-height: 140%;
+    }
+
+
+.content-about{
+    padding:160px 24px 160px 24px;
+    background: #181818;
+    border-top: 1px solid #2A2A2A;
+}
+    .p-about-24bm{
+        font-size: 24px;
+        line-height: 160%;
+        margin-bottom: 24px;
+        color:#c8c8c8;
+    }
+    .p-about-48bm{
+        font-size: 24px;
+        line-height: 160%;
+        margin-bottom: 48px;
+        color:#c8c8c8;
+    }
+    
+    .p-about-96bm{
+        font-size: 24px;
+        line-height: 160%;
+        margin-bottom: 96px;
+        color:#c8c8c8;
+    }

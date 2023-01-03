@@ -1,0 +1,52 @@
+/* Nav for Case Studys */
+
+
+.csNav{
+    width:100vw;
+    height:48px;
+    mix-blend-mode: difference;
+    border-color: #DEDEDE;
+    position:fixed;
+    z-index:9;
+    
+}
+
+.csBackBtn{
+    mix-blend-mode: difference;
+    position:absolute;
+    right: 40px;
+    top: 8px;
+    height:32px;
+    background-color:#101010;
+    color: #dedede;
+    padding-left:16px;
+    padding-right:16px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    
+
+}
+
+#scrollIndicator{
+    background-color: rgba(166, 166, 166, 16%);
+    height: 100%;
+    border-bottom: solid black 1px;
+    position: absolute;
+    left:0;
+}
+
+h2.csTitle{
+    position:absolute;
+    font-size:16px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    top:12px;
+    left:40px;
+    text-transform: none;
+    color: #dedede;
+    mix-blend-mode: difference;
+
+}
+
