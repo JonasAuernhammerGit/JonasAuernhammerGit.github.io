@@ -15,7 +15,7 @@
         grid-template-rows: auto;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 640px) {
         .grid-journal-home{
             grid-template-columns: 1fr 1fr;
         }
@@ -35,6 +35,12 @@
             
         }
 
+        @media only screen and (max-width: 1200px) {
+            .item-journal{
+                padding: 24px;
+            }
+        }
+
         .item-journal:hover{
             background-color: #242424;
             transform: translate(0, -8px);
@@ -48,6 +54,12 @@
                 color: #C4C4C4;
                 margin-bottom: 16px;
                 
+            }
+
+            @media only screen and (max-width: 1200px) {
+                .titel-journal{
+                    font-size: 20px;
+                }
             }
 
             .inner-wrapper-journal{
@@ -79,7 +91,7 @@
         grid-gap:16px;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 640px) {
         .grid-casestudy-home{
             grid-template-columns: 1fr;
         }
@@ -110,7 +122,7 @@
                 width:100%;
             }
 
-            @media only screen and (max-width: 600px) {
+            @media only screen and (max-width: 640px) {
                 .cs-thumb-wrapper-home{
                     height: 60vw;
                 }

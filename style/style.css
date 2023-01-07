@@ -48,7 +48,7 @@
   
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   .contain_4column_1280{
       column-gap:8px;
   }
@@ -92,7 +92,7 @@ body {
     line-height: 24px;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 640px) {
     p {
       font-size:12px;
       line-height: 18px;
