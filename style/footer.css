@@ -64,6 +64,8 @@
     grid-template-columns: 1fr auto 1fr;
     padding: 0px 40px;
     background: #111111;
+    width:100%;
+    overflow: hidden;
 }
 
 
