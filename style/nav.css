@@ -22,6 +22,13 @@
             padding-left:8px;
         }
 
+        @media only screen and (max-width: 640px) {
+            .logo{
+                height: 32px;
+                padding-right:24px;
+            }
+        }
+
         .job-title {
             font-size: 14px;
             line-height: 16px;
@@ -30,6 +37,12 @@
             height: 32px;
             color: #C6C6C6;
             border-left: solid 1px #C6C6C6;
+        }
+
+        @media only screen and (max-width: 640px) {
+            .job-title{
+                padding-left:24px;
+                }
         }
 
     .nav-right-home{

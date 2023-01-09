@@ -4,9 +4,19 @@
     background: #111111;
 }
 
+.swiper-slide {
+    display: flex;
+}
+
 
 .sec-journal-home{
  padding:8px;
+}
+
+@media only screen and (max-width: 640px) {
+    .sec-journal-home{
+        padding:4px;
+    }
 }
 
     .grid-journal-home{
@@ -16,7 +26,7 @@
     }
 
     @media only screen and (max-width: 640px) {
-        .grid-journal-home{
+        .grid-\@unassuming_lake_gnu_515\enabling-factory-workers-to-fix-issues-in-production-lines-up-to-4x-faster-on-their-hmis-with-15c5e0b59b37journal-home{
             grid-template-columns: 1fr 1fr;
         }
     }
@@ -38,6 +48,8 @@
         @media only screen and (max-width: 1200px) {
             .item-journal{
                 padding: 24px;
+                margin:4px;
+                min-height:240px;
             }
         }
 
@@ -84,6 +96,13 @@
     padding:0px 16px 40px 16px;
 }
 
+@media only screen and (max-width: 640px) {
+    .sec-casestudy-home{
+        padding:0px 8px 40px 8px;
+    }
+}
+
+
     .grid-casestudy-home{
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -94,6 +113,7 @@
     @media only screen and (max-width: 640px) {
         .grid-casestudy-home{
             grid-template-columns: 1fr;
+            grid-gap:8px;
         }
     }
 
