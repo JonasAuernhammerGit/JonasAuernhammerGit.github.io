@@ -13,10 +13,43 @@
   content="Mary's simple recipe for maple bacon donuts
            makes a sticky, sweet treat with just a hint
            of salt that you'll keep coming back for.">
+    <script defer src="/scripts/nav.js"></script>
 </head>
 
-<body id="body-home">
 
+<header>
+<!--MobileMenu-->
+<section id="mobile-menu">
+   
+    <div class="wrapper-header-m">
+        <div class="nav-left-home-m">
+            <a href="/index.html"><img class="logo-m" alt="Logo Jonas Auernhammer" src="/assets/icons/Logo_JonasAuernhammer.svg"></a>
+            <p class="job-title-m">German<br>Designer</p>
+        </div>
+        <a  class="a-close" id="a-close">
+            <img alt="close-icon-white" src="/assets/icons/close.svg" width="16px" height="16px">
+        </a>
+    </div>
+    <div class="wrapper-main-links-m">
+        <a href="/index.html" class="main-link-m">Home</a>
+        <a href="/pages/About.html" class="main-link-m">About</a>
+        <a href="/assets/other/CV_V02.pdf" class="main-link-m">Resume</a>
+    </div>
+    <div class="wrapper-secondary-links-m">
+        <a href="" class="second-link-m">Linkedin</a>
+        <a href="" class="second-link-m">Instagram</a>
+        <a href="" class="second-link-m">Dribbble</a>
+        <a href="" class="second-link-m">Behance</a>
+    </div>
+    <div class="wrapper-legal-links-m">
+        <a href="/pages/legal/impressum.html" class="legal-link-m">Imprint</a>
+        <a href="/pages/legal/privacy.html" class="legal-link-m">Privacy</a>
+    </div>
+</section>
+</header>
+
+
+<body id="body-home">
 
 
 <!--Scroll Smoother Start-->
@@ -32,7 +65,7 @@
         <p class="job-title">German<br>Designer</p>
     </div>
     <div class="nav-right-home">
-        <a class="a-burger">
+        <a class="a-burger" id="a-burger">
             <div class="burger-line-a"></div>
             <div class="burger-line-b"></div>
         </a>
@@ -46,11 +79,7 @@
         </a>
     </div>
 </section>
-<!--MobileMenu-->
 
-<section id="mobile-menu">
-    <a class="a-cross"></a>
-</section>
 
 <!--Journal-->
 <section class="sec-journal-home">
