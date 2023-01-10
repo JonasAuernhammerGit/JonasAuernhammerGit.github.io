@@ -62,8 +62,23 @@
     background: #111111;
     width:100%;
     overflow: hidden;
+    position: relative;
 }
 
+@media only screen and (max-width: 640px) {
+    .credit-footer{
+        display:flex;
+        align-items: center;
+        width: 100vw;
+    }
+    }
+
+
+@media only screen and (max-width: 640px) {
+    .credit-footer{
+        display:none;
+    }
+    }
 
 
     .footer_contain_socials{
@@ -71,6 +86,13 @@
         display:flex;
         justify-content: space-between;
     }
+
+    @media only screen and (max-width: 640px) {
+        .footer_contain_socials{
+            max-width:100%;  
+            width:320px;
+        }
+        }
 
         .item_social{
             position: relative;
@@ -93,3 +115,9 @@
         .item_legal:hover{
             color:white;
         }
+
+        @media only screen and (max-width: 640px) {
+            .wrapper_legal{
+                display:none;
+            }
+            }
