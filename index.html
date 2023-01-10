@@ -26,12 +26,24 @@
 
 
 <!--Navigation-->
+<script>
+    $('.a-burger').click(function() {
+    $('#mobile-menu').show(0);
+});
+$('.a-cross').click(function() {
+    $('#mobile-menu').hide(500);
+});
+</script>
 <section class="nav-home">
     <div class="nav-left-home">
         <a href="/index.html"><img class="logo" alt="Logo Jonas Auernhammer" src="/assets/icons/Logo_JonasAuernhammer.svg"></a>
         <p class="job-title">German<br>Designer</p>
     </div>
     <div class="nav-right-home">
+        <a class="a-burger">
+            <div class="burger-line-a"></div>
+            <div class="burger-line-b"></div>
+        </a>
         <a href="/pages/About.html" class="nav-link">About</a>
         <a href="#section_cta" class="nav-link">Contact</a>
         <a href="/assets/other/CV_V02.pdf" class="CV-download" download>
@@ -41,6 +53,12 @@
             </div> 
         </a>
     </div>
+</section>
+
+<!--MobileMenu-->
+
+<section id="mobile-menu">
+    <a class="a-cross"></a>
 </section>
 
 <!--Journal-->
