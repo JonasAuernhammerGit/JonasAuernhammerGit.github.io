@@ -95,6 +95,7 @@
             .inner-wrapper-journal{
                 display: flex; 
                 flex-direction: row;
+                align-items: center;
             }
 
                 .p-time-home{
@@ -107,6 +108,17 @@
                 .time-icon{
                     width:12px;
                     height:12px;
+                }
+
+                .p-recommendet{
+                    font-size: 12px;
+                    line-height: 12px;
+                    letter-spacing: -0.03em;
+                    margin-left:16px;
+                }
+
+                .icon-star{
+                    margin-left:24px;
                 }
 
 

@@ -33,6 +33,12 @@
     background: #181818;
     border-top: 1px solid #2A2A2A;
 }
+
+@media only screen and (max-width: 1200px) {
+    .content-about{
+        padding: 40px 24px 80px 24px;
+    }
+}
     .p-about-24bm{
         font-size: 24px;
         line-height: 160%;
