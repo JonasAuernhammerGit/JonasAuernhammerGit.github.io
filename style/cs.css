@@ -121,6 +121,10 @@
     margin-top:120px;    
 }
 
+#section_img_col_14-no-margin{
+    padding: 160px 160px 160px 160px;    
+}
+
 .sec_img_col_14_milde{
     background-color: rgba(18, 34, 47, 1);
 }
@@ -550,3 +554,35 @@
             }
         }
 
+/*Section writing*/
+
+#sec-writing-cs{
+    padding: 120px 40px;
+}
+
+    .p-writing-23{
+        grid-column: 2 / 4;
+        margin-bottom: 32px;
+    }
+
+    .a-medium{
+        grid-column: 2/4;
+        margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+    }
+
+        .icon-medium-page{
+            margin-right: 8px;
+        }
+
+        .p-medium{
+            color:black;
+            font-weight: 500;
+            border-bottom: 1.5px solid black;
+            margin-right: 8px;
+        }
+
+        .logo-black-cs{
+            grid-column: 2/4;
+        }
