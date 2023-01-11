@@ -12,17 +12,13 @@
 .sec-journal-home{
  padding:8px;
  width: 100%;
- 
-}
+ -webkit-overflow-scrolling: touch;
+} 
 
 @media only screen and (max-width: 640px) {
     .sec-journal-home{
         padding:4px;
         overflow-x:scroll;
-        -webkit-overflow-scrolling: touch;
-    &::-webkit-scrollbar {
-       display: none;
-    }
     }
 }
 

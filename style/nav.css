@@ -59,10 +59,15 @@
 
     @media only screen and (max-width: 1200px) {
         .nav-right-home{
+            width: 320px;
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+        .nav-right-home{
             align-items: center;   
             justify-content: flex-end;
             padding-left: 0px;
-            
         }
     }
 
@@ -73,7 +78,7 @@
             cursor: pointer;
         }
 
-        @media only screen and (max-width: 1200px) {
+        @media only screen and (max-width: 640px) {
             .a-burger{
                 display: flex;
             flex-direction: column;
@@ -105,7 +110,7 @@
 
         }
 
-        @media only screen and (max-width: 1200px) {
+        @media only screen and (max-width: 640px) {
             .nav-link{
                 display:none;
                 }
@@ -126,7 +131,7 @@
             transition: all 0.25s ease;
         }
 
-        @media only screen and (max-width: 1200px) {
+        @media only screen and (max-width: 640px) {
             .CV-download{
                 display:none;
                 }
