@@ -19,15 +19,14 @@
     }
 
         .logo{
-            height: 40px;
-            padding-right:40px;
-            padding-left:8px;
+            height: 32px;
+            margin-right:40px;
+            margin-left:8px;
         }
 
         @media only screen and (max-width: 640px) {
             .logo{
-                height: 32px;
-                padding-right:24px;
+                margin-right:24px;
             }
         }
 
@@ -184,14 +183,14 @@
 
         .nav-left-home-m{
             display:flex;
-        flex-direction: row;
-        align-items:center;
+            flex-direction: row;
+            align-items:center;
         }
 
             .logo-m{
                 height: 32px;
-                padding-right:24px;
-                padding-left: 8px;
+                margin-right:24px;
+                margin-left: 8px;
 
             }
 
