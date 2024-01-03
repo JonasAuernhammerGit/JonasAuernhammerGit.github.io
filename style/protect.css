@@ -64,7 +64,7 @@
 }
 
     .center-content{
-        transform:translateY(-30px) ;
+        transform:translateY(-70px) ;
         transition: transform 0.3s ease; /* Add transition for smooth movement */
 
     }
