@@ -39,16 +39,16 @@ document.getElementById('centerContent').addEventListener('click', function () {
 
 // Listen for the virtual keyboard visibility on mobile devices
 document.body.addEventListener('focusin', function (event) {
-    if (window.innerWidth < 768 && event.target === passwordInput) {
-        document.getElementById('centerContent').style.transform = 'translateY(-110px)';
-    }
+  if (window.innerWidth < 768 && event.target === passwordInput) {
+      document.getElementById('centerContent').style.transform = 'translateY(-110px)';
+  }
 });
 
 // Listen for the virtual keyboard hiding on mobile devices
 document.body.addEventListener('focusout', function (event) {
-    if (window.innerWidth < 768 && event.target !== passwordInput) {
-        document.getElementById('centerContent').style.transform = 'translateY(-70px)';
-    }
+  if (window.innerWidth < 768 && event.target === passwordInput) {
+      document.getElementById('centerContent').style.transform = 'translateY(-70px)';
+  }
 });
 
 // Additional event listener for handling when virtual keyboard is not visible on mobile
