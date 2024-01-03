@@ -64,7 +64,9 @@
 }
 
     .center-content{
-        transform:translateY(-70px) ;
+        transform:translateY(-30px) ;
+        transition: transform 0.3s ease; /* Add transition for smooth movement */
+
     }
 
 
@@ -95,10 +97,14 @@
     margin-right: 4px;
     color: white;
     background-color: #111111;
+    transition: transform 0.3s ease; /* Add transition for smooth movement */
+
   }
 
   button:hover{
     background-color: #4A4A4A;
+    transition: transform 0.3s ease; /* Add transition for smooth movement */
+
   }
   
   .password-circle {
