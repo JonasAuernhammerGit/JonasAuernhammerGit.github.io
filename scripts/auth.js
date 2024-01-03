@@ -35,25 +35,16 @@ document.getElementById('centerContent').addEventListener('click', function() {
     passwordInput.focus();
 });
 
-// Detect if the virtual keyboard is visible and adjust the "center-content" div
-window.addEventListener('resize', function () {
-    if (window.innerWidth < 600 && document.activeElement === passwordInput) {
-        document.getElementById('centerContent').style.transform = 'translateY(-130px)';
-    } else {
-        document.getElementById('centerContent').style.transform = 'translateY(-70px)';
-    }
-});
-
 // Listen for the virtual keyboard visibility on mobile devices
-document.body.addEventListener('focusin', function() {
-    if (window.innerWidth < 768 && document.activeElement === passwordInput) {
+document.body.addEventListener('focusin', function(event) {
+    if (window.innerWidth < 768 && event.target === passwordInput) {
         document.getElementById('centerContent').style.transform = 'translateY(-110px)';
     }
 });
 
 // Listen for the virtual keyboard hiding on mobile devices
-document.body.addEventListener('focusout', function() {
-    if (window.innerWidth < 768 && document.activeElement !== passwordInput) {
+document.body.addEventListener('focusout', function(event) {
+    if (window.innerWidth < 768 && event.target !== passwordInput) {
         document.getElementById('centerContent').style.transform = 'translateY(-70px)';
     }
 });
