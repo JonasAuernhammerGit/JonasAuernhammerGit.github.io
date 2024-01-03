@@ -354,6 +354,7 @@
 /*Video w 100*/
 #section_video_w_100{
     width:100%;
+    position: relative;
 }
 
     .video_w_100{
@@ -618,3 +619,10 @@
                 grid-column: 1/4;
             }
         }
+
+
+        #sec_img_100 {
+            position: relative;
+            width: 100%;
+        }
+        
