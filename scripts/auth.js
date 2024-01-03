@@ -25,12 +25,12 @@ document.addEventListener('DOMContentLoaded', function () {
     passwordInput.setSelectionRange(passwordInput.value.length, passwordInput.value.length);
 });
 
-/*
-// Re-focus the input when it loses focus
-passwordInput.addEventListener('blur', function () {
-    passwordInput.focus();
-});
-*/
+// Re-focus the input when it loses focus, but only on desktop
+if (window.innerWidth >= 768) {
+  passwordInput.addEventListener('blur', function () {
+      passwordInput.focus();
+  });
+}
 
 // Focus on the password input when the "center-content" div is clicked
 document.getElementById('centerContent').addEventListener('click', function () {
