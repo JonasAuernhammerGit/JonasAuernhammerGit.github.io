@@ -1,246 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Jonas Auernhammer - Product Designer</title>
-    <link
-        rel="preload"
-        href="fonts/Inter-Regular.ttf"
-        as="font"
-        type="font/ttf"
-        crossorigin="anonymous"
-        />
-    <link rel="stylesheet" href="/style/style.css" />
-    <link rel="stylesheet" href="/style/nav.css" />
-    <link rel="stylesheet" href="/style/footer.css"  />   
-    <link rel="stylesheet" href="/style/home.css" />
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta
-  name="description"
-  content="Portfolio Website of Jonas Auernhammer. Product Designer from Nürnberg, Germany.">
-    <script defer src="/scripts/nav.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Protected Page</title>
+  <link rel="stylesheet" href="style/protect.css">
 </head>
-
-
-
-<!--MobileMenu-->
-<header>
-<section id="mobile-menu" class="hidden">
-   
-    <div class="wrapper-header-m">
-        <div class="nav-left-home-m">
-            <a href="/index.html"><img class="logo-m" alt="Logo Jonas Auernhammer" src="/assets/icons/Logo_JonasAuernhammer.svg" height="32px" width="84px"></a>
-            <p class="job-title-m">User Experience<br>Designer</p>
-        </div>
-        <a  class="a-close" id="a-close">
-            <img alt="close-icon-white" src="/assets/icons/close.svg" width="16px" height="16px">
-        </a>
-    </div>
-    <div class="wrapper-main-links-m">
-        <a href="/index.html" class="main-link-m">Home</a>
-        <a href="/pages/About.html" class="main-link-m">About</a>
-        <a download href="/assets/other/CV - Lebenslauf_ 21042023.pdf" class="main-link-m">Resume</a>
-    </div>
-    <div class="wrapper-secondary-links-m">
-        <a href="" class="second-link-m">Linkedin</a>
-        <a href="" class="second-link-m">Instagram</a>
-        <a href="" class="second-link-m">Dribbble</a>
-        <a href="" class="second-link-m">Behance</a>
-    </div>
-    <div class="wrapper-legal-links-m">
-        <a href="/pages/legal/impressum.html" class="legal-link-m">Imprint</a>
-        <a href="/pages/legal/privacy.html" class="legal-link-m">Privacy</a>
-    </div>
-</section>
-</header>
-
-
-<body id="body-home">
-
-
-<!--Scroll Smoother Start-->
-<div id="smooth-wrapper">
-    <div id="smooth-content">
-
-
-
-<!--Navigation-->
-<section class="nav-home">
-    <div class="nav-left-home">
-        <a href="/index.html"><img class="logo" alt="Logo Jonas Auernhammer" src="/assets/icons/Logo_JonasAuernhammer.svg" width="84px" height="32px"></a>
-        <p class="job-title">Product<br>Designer</p>
-    </div>
-    <div class="nav-right-home">
-        <a class="a-burger" id="a-burger">
-            <div class="burger-line-a"></div>
-            <div class="burger-line-b"></div>
-        </a>
-        <a href="/pages/About.html" class="nav-link">About</a>
-        <a href="#section_cta" class="nav-link">Contact</a>
-        <a href="/assets/other/CV - Lebenslauf_ 21042023.pdf" class="CV-download" download>
-            <div class="div-CV">
-                <p class="p-CV">CV</p>
-                <img  alt="download-icon-white" src="/assets/icons/Download.svg" width="16px" height="16px">
-            </div> 
-        </a>
-    </div>
-</section>
-
-
-<!--Journal-->
-<section class="sec-journal-home">
-    <div class="grid-journal-home">
-        <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@unassuming_lake_gnu_515/enabling-factory-workers-to-fix-issues-in-production-lines-up-to-4x-faster-on-their-hmis-with-15c5e0b59b37" class="item-journal">
-            <h2 class="titel-journal">Enabling Engineers to fix issues in production lines up to 4x faster on their HMIs (with thoughtful UX-Design)</h2>
-            <div class="inner-wrapper-journal">
-                <img alt="icon-time-white" class="time-icon" src="/assets/icons/time.svg" width="12px" height="12px">
-                <p class="p-time-home">9 MIN READ</p>
-                <!--
-                <img alt="star-icon-yellowr" class="icon-star" src="/assets/icons/star.svg" width="14px" height="14px">
-                <p class="p-recommendet">RECOMMENDATION</p>
-                -->
-            </div>
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="/pages/CaseStudy/OpenCalendar.html" class="item-journal">
-            <h2 class="titel-journal">Showcasing the product design prozess behind the Open Calendar concept. (UI/UX Case Study)</h2>
-            <div class="inner-wrapper-journal">
-                <img alt="icon-time-white" class="time-icon" src="/assets/icons/time.svg" width="12px" height="12px">
-                <p class="p-time-home">10 MIN READ</p>
-            </div>
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@unassuming_lake_gnu_515/dental-flagship-website-increse-online-booked-treatements-by-40-oraganic-visitors-by-232-1f0c570899e3" class="item-journal">
-            <h2 class="titel-journal">Dental Flagship Website: Increse “Online booked treatements” by 40%, “oraganic visitors” by 232% & average time spent on site” by 382%</h2>
-            <div class="inner-wrapper-journal">
-                <img alt="icon-time-white" class="time-icon" src="/assets/icons/time.svg" width="12px" height="12px">
-                <p class="p-time-home">12 MIN READ</p>
-            </div>
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@unassuming_lake_gnu_515/enhance-conversion-rate-of-invied-users-ux-design-bf4e4dd34703" class="item-journal">
-            <h2 class="titel-journal">Enhance the conversion rate of invied users (UX Design)</h2>
-            <div class="inner-wrapper-journal">
-                <img alt="icon-time-white" class="time-icon" src="/assets/icons/time.svg" width="12px" height="12px">
-                <p class="p-time-home">4 MIN READ</p>
-            </div>
-        </a>
-    </div>
-</section>
-
-
-
-<!--Case Studys Grid-->
-<section class="sec-casestudy-home">
-    <div class="grid-casestudy-home">
-        <a href="/pages/CaseStudy/OpenCalendar.html" class="cs-item-home">
-            <div class="cs-thumb-wrapper-home">
-                <img alt="OpenCalendar-thumbnail-small" class="cs-thumb-home"
-                src="https://ik.imagekit.io/jonasauernhammer/tr:w-1800/Portfolio/home/OpenCalendar_Thumb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673116693439">
-            </div>
-            <div class="cs-description-home">
-                <h2 class="project-titel-home">Open Calendar</h2>
-                <p class="project-titel-home">-</p>
-                <p class="project-titel-home">Product Design</p>
-            </div>
-        </a>
-        <a href="/pages/CaseStudy/Siemens.html" class="cs-item-home">
-            <div class="cs-thumb-wrapper-home">
-                <img alt="Siemens-thumbnail-small" class="cs-thumb-home"
-                src="https://ik.imagekit.io/jonasauernhammer/tr:w-1800/Portfolio/home/Siemens_Thumbn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673126444942">
-            </div>
-            <div class="cs-description-home">
-                <h2 class="project-titel-home">Siemens</h2>
-                <p class="project-titel-home">-</p>
-                <p class="project-titel-home">Product Design</p>
-            </div>
-        </a>
-        <a href="/pages/CaseStudy/Milde.html" class="cs-item-home">
-            <div class="cs-thumb-wrapper-home">
-                <img alt="Milde-thumbnail-small" class="cs-thumb-home"
-                src="https://ik.imagekit.io/jonasauernhammer/tr:w-1800/Portfolio/home/Milde_Thumb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673117895417">
-            </div>
-            <div class="cs-description-home">
-                <h2 class="project-titel-home">Milde</h2>
-                <p class="project-titel-home">-</p>
-                <p class="project-titel-home">UI/UX Design</p>
-            </div>
-        </a>
-        <a href="/pages/CaseStudy/Spitzbergen.html" class="cs-item-home">
-            <div class="cs-thumb-wrapper-home">
-                <!--<img alt="spitzbergen-thumbnail-small" class="cs-thumb-home" src="/assets/img/home/Thumb_Spitzbergen.jpg">-->
-                <img alt="spitzbergen-thumbnail-small" class="cs-thumb-home"
-                srcset="https://ik.imagekit.io/jonasauernhammer/tr:w-1800/Portfolio/home/Spitzbergen_Thumb.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673114609145 1800w,
-                https://ik.imagekit.io/jonasauernhammer/tr:w-1400/Portfolio/home/Spitzbergen_Thumb.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673114609145 1400w,
-                https://ik.imagekit.io/jonasauernhammer/tr:w-1000/Portfolio/home/Spitzbergen_Thumb.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673114609145 1000w,
-                https://ik.imagekit.io/jonasauernhammer/tr:w-800/Portfolio/home/Spitzbergen_Thumb.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673114609145 800w"
-                src="https://ik.imagekit.io/jonasauernhammer/tr:w-1800/Portfolio/home/Spitzbergen_Thumb.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673114609145">
-            </div>
-            <div class="cs-description-home">
-                <h2 class="project-titel-home">Spitzbergen</h2>
-                <p class="project-titel-home">-</p>
-                <p class="project-titel-home">UI/UX Design</p>
-            </div>
-        </a>
-        <a href="/pages/CaseStudy/Dentally.html" class="cs-item-home">
-            <div class="cs-thumb-wrapper-home">
-                <img alt="dentally-thumbnail-small" class="cs-thumb-home"
-                src="https://ik.imagekit.io/jonasauernhammer/tr:w-1800/Portfolio/home/Dentally_Thumb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673117894909">
-            </div>
-            <div class="cs-description-home">
-                <h2 class="project-titel-home">Dentally</h2>
-                <p class="project-titel-home">-</p>
-                <p class="project-titel-home">Art Direction</p>
-            </div>
-        </a>
-        <a href="/index.html" class="cs-item-home">
-            <div class="cs-thumb-wrapper-home">
-                <img alt="otherprojects-thumbnail-small" class="cs-thumb-home"
-                src="https://ik.imagekit.io/jonasauernhammer/tr:w-1800/Portfolio/home/OtherProjects_Thumb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673117894541">
-            </div>
-            <div class="cs-description-home">
-                <h2 class="project-titel-home">Other Projects</h2>
-                <p class="project-titel-home">-</p>
-                <p class="project-titel-home">Product Design, Web Design, Art Direction</p>
-            </div>
-        </a>
+<body>
+    <div class="login-container">
+        <div class="center-content">
+            <h1>Jonas Auernhammer</h1>
+            <h2>User Experience Designer</h2>
         
-    </div>
-</section>
-
-<!--Section CTA-->
-<section id="section_cta">
-    <div class="wrapper_cta">
-        <p>Let's chat</p>
-        <p class="cta_Question">Feel free to reach out!</p>
-        <div class="innerwrapper_cta">
-            <a href="tel:+49-151-626-11795" class="footer_contact_a">+49(0) 151 626 11795</a>
-            <a href="mailto:info@jonasauernhammer.de" class="footer_contact_a">info@jonasauernhammer.de</a>
+            <form id="loginForm">
+            <!-- Visible password input styled to appear hidden -->
+            <input type="password" id="password" maxlength="6" required class="visible-input">
+            <!-- Password circles -->
+            <div class="password-input-container">
+                <div class="password-circles" id="passwordCircles">
+                <div class="password-circle"></div>
+                <div class="password-circle"></div>
+                <div class="password-circle"></div>
+                <div class="password-circle"></div>
+                <div class="password-circle"></div>
+                <div class="password-circle"></div>
+                </div>
+            </div>
+            </form>
+        
+         <p>Enter the password</p>
+        </div>
+        <div class="contact-infos">
+            <a href="mailto:your.email@example.com" style="text-decoration: none; cursor: pointer;">
+                <button type="button">
+                    Email
+                </button>
+            </a>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" style="text-decoration: none; cursor: pointer;">
+                <button type="button">
+                    Linkedin
+                </button>
+            </a>
+            <a href="https://twitter.com/your-twitter-handle" style="text-decoration: none; cursor: pointer;">
+                <button type="button">
+                    Twitter
+                </button>
+            </a>
         </div>
     </div>
-</section>
-
-<!--Footer-->
-<section id="footer">
-    <p class="credit-footer">©2022 Jonas Auernhammer</p>
-    <div class="footer_contain_socials">
-        <a href="https://www.linkedin.com/in/jonas-auernhammer-2638b8193" class="item_social">Linkedin</a>
-        <a href="https://www.instagram.com/auernhammer.ad/" class="item_social">Instagram</a>
-        <a href="https://dribbble.com/Jonasauernhammer" class="item_social">Dribbble</a>
-        <a href="https://www.behance.net/jonasauernhammer" class="item_social">Behance</a>
-    </div>
-    <div class="wrapper_legal">
-        <a href="/pages/legal/privacy.html" class="item_legal">Privacy</a>
-        <a href="/pages/legal/impressum.html" class="item_legal">Imprint</a>
-    </div>
-</section>
-
-
-<!--Scroll Smoother End-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-<script src="/scripts/gsap/ScrollSmoother.min.js"></script>
-<script src="/scripts/gsap/ScrollTrigger.min.js"></script>
-<script src="/scripts/scrollsmoother.js"></script>
-
-    </div>
-</div>
-
+  <script src="scripts/auth.js"></script>
 </body>
 </html>
