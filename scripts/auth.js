@@ -32,7 +32,7 @@ passwordInput.addEventListener('blur', function () {
 
 function authenticate(password) {
     // Replace '000000' with your desired password
-    if (password === '000000') {
+    if (password === '281099') {
         window.location.href = 'Home.html'; // Redirect to the protected page
     } else {
         var currentTime = new Date().getTime();
