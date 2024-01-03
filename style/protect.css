@@ -88,24 +88,22 @@
     display: flex;
   }
 
-  button{
+  button {
     padding-left: 14px;
-    padding-right:14px;
-    padding-top:8px;
-    padding-bottom:9px;
+    padding-right: 14px;
+    padding-top: 8px;
+    padding-bottom: 9px;
     border-radius: 16px;
     margin-right: 4px;
     color: white;
     background-color: #111111;
-    transition: transform 0.3s ease; /* Add transition for smooth movement */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Add transition for smooth movement */
+    cursor: pointer; /* Add cursor style */
+}
 
-  }
-
-  button:hover{
+button:hover {
     background-color: #4A4A4A;
-    transition: transform 0.3s ease; /* Add transition for smooth movement */
-
-  }
+}
   
   .password-circle {
     width: 24px;
