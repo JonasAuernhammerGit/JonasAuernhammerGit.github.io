@@ -31,23 +31,35 @@ passwordInput.addEventListener('blur', function () {
 });
 
 // Focus on the password input when the "center-content" div is clicked
-document.getElementById('centerContent').addEventListener('click', function() {
+document.getElementById('centerContent').addEventListener('click', function () {
     passwordInput.focus();
 });
 
 // Listen for the virtual keyboard visibility on mobile devices
-document.body.addEventListener('focusin', function(event) {
+document.body.addEventListener('focusin', function (event) {
     if (window.innerWidth < 768 && event.target === passwordInput) {
         document.getElementById('centerContent').style.transform = 'translateY(-110px)';
     }
 });
 
 // Listen for the virtual keyboard hiding on mobile devices
-document.body.addEventListener('focusout', function(event) {
+document.body.addEventListener('focusout', function (event) {
     if (window.innerWidth < 768 && event.target !== passwordInput) {
         document.getElementById('centerContent').style.transform = 'translateY(-70px)';
     }
 });
+
+// Additional event listener for handling when virtual keyboard is not visible on mobile
+window.addEventListener('resize', function () {
+    if (window.innerWidth < 768 && !isVirtualKeyboardVisible()) {
+        document.getElementById('centerContent').style.transform = 'translateY(0)';
+    }
+});
+
+function isVirtualKeyboardVisible() {
+    // Check if the viewport height has increased (indicating virtual keyboard is not visible)
+    return window.innerHeight < window.screen.height;
+}
 
 function authenticate(password) {
     // Replace '000000' with your desired password

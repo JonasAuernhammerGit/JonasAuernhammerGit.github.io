@@ -1,54 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Password Protected Page</title>
-  <link rel="stylesheet" href="style/protect.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Protected Page</title>
+    <link rel="stylesheet" href="style/protect.css">
 </head>
 <body>
-  <div class="wrapper">
-    <div class="login-container">
-        <div class="center-content" id="centerContent">
-            <h1>Jonas Auernhammer</h1>
-            <h2>User Experience Designer</h2>
-        
-            <form id="loginForm">
-                <!-- Visible password input styled to appear hidden -->
-                <input type="password" id="password" maxlength="6" required class="visible-input">
-                <!-- Password circles -->
-                <div class="password-input-container">
-                    <div class="password-circles" id="passwordCircles">
-                        <div class="password-circle"></div>
-                        <div class="password-circle"></div>
-                        <div class="password-circle"></div>
-                        <div class="password-circle"></div>
-                        <div class="password-circle"></div>
-                        <div class="password-circle"></div>
+    <div class="wrapper">
+        <div class="login-container">
+            <div class="center-content" id="centerContent">
+                <h1>Jonas Auernhammer</h1>
+                <h2>User Experience Designer</h2>
+
+                <form id="loginForm">
+                    <!-- Visible password input styled to appear hidden -->
+                    <input type="password" id="password" maxlength="6" required class="visible-input">
+                    <!-- Password circles -->
+                    <div class="password-input-container">
+                        <div class="password-circles" id="passwordCircles">
+                            <div class="password-circle"></div>
+                            <div class="password-circle"></div>
+                            <div class="password-circle"></div>
+                            <div class="password-circle"></div>
+                            <div class="password-circle"></div>
+                            <div class="password-circle"></div>
+                        </div>
                     </div>
-                </div>
-            </form>
-        
-         <p>Enter the password</p>
-        </div>
-        <div class="contact-infos">
-            <a href="mailto:your.email@example.com" style="text-decoration: none; cursor: pointer;">
-                <button type="button">
-                    Email
-                </button>
-            </a>
-            <a href="https://www.linkedin.com/in/your-linkedin-profile" style="text-decoration: none; cursor: pointer;">
-                <button type="button">
-                    Linkedin
-                </button>
-            </a>
-            <a href="https://twitter.com/your-twitter-handle" style="text-decoration: none; cursor: pointer;">
-                <button type="button">
-                    Twitter
-                </button>
-            </a>
+                </form>
+
+                <p>Enter the password</p>
+            </div>
+            <div class="contact-infos">
+                <a href="mailto:your.email@example.com" style="text-decoration: none; cursor: pointer;">
+                    <button type="button">Email</button>
+                </a>
+                <a href="https://www.linkedin.com/in/your-linkedin-profile" style="text-decoration: none; cursor: pointer;">
+                    <button type="button">Linkedin</button>
+                </a>
+                <a href="https://twitter.com/your-twitter-handle" style="text-decoration: none; cursor: pointer;">
+                    <button type="button">Twitter</button>
+                </a>
+            </div>
         </div>
     </div>
-  <script src="scripts/auth.js"></script>
+    <script src="scripts/auth.js"></script>
 </body>
 </html>
