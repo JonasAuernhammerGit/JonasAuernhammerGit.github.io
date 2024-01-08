@@ -626,3 +626,29 @@
             width: 100%;
         }
         
+
+/* Vitra */
+
+.absolute-btm-left{
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
+    max-width: 360px;
+}
+.absolute-btm-right{
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+    max-width: 360px;
+}
+
+.absolute-btm-left-title{
+    color:#1b1b1b;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.absolute-btm-left-p{
+    line-height: 124%;
+    mix-blend-mode: difference;
+}
