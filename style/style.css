@@ -116,3 +116,60 @@ img.csThumb{
   height:100vh;
   
 }
+
+
+/* Notification */
+
+#notification {
+  position: fixed;
+  bottom: -120px; /* Start 100px below the viewport */
+  visibility: hidden; /* Initially hide the notification */
+  transition: bottom 0.5s ease-out, transform 1.8s ease-out; /* Animate both bottom and transform (scale) */
+  right: 16px;
+  background-color: white;
+  padding: 48px 40px 48px 40px;
+  border-radius: 12px;
+  z-index: 999;
+  box-shadow: 0px 56.613px 33.675px 0px rgba(0, 0, 0, 0.02), 0px 24.89px 24.89px 0px rgba(0, 0, 0, 0.03), 0px 6.345px 13.665px 0px rgba(0, 0, 0, 0.03);
+  transform: scale(0.9);
+}
+
+.close-notification{
+  position:absolute;
+  right:0px;
+  top:0px;
+  padding:24px 32px;
+}
+
+.flex-notification{
+  display: flex;
+}
+
+.clm-right{
+  max-width: 256px;
+  margin-left: 16px;
+}
+
+.clm-left{
+  padding-top: 16px;
+}
+
+.title-notification{
+ font-size: 22px;
+ letter-spacing: -0.04em;
+ text-transform:none;
+ margin-bottom: 12px;
+ color:#161616;
+ font-weight: 500;
+}
+
+.p-notification{
+margin-bottom: 28px;
+letter-spacing: -0.02em;
+line-height: 22px;
+}
+
+.textlink-notification{
+  text-decoration: underline;
+
+}
